@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TrainingLog.Data;
 using TrainingLog.Components;
+using TrainingLog.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,9 @@ builder.Services.AddRazorComponents()
 // SQLite
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Services
+builder.Services.AddScoped<WorkoutService>();
 
 var app = builder.Build();
 

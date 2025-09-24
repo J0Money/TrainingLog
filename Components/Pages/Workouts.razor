@@ -1,0 +1,45 @@
+﻿@page "/Workouts"
+@using TrainingLog.Models
+@using TrainingLog.Services
+@inject WorkoutService WorkoutService
+<h3>Workouts</h3>
+
+@if (workouts == null)
+{
+    <p>Loading workouts...</p>
+}
+else if (!workouts.Any())
+{
+    <p>Fandt ingen workouts:(</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Notes</th>
+        </tr>
+        </thead>
+        @foreach (var workout in workouts)
+        {
+            <tr>
+                <td>@workout.Date.ToShortDateString()</td>
+                <td>@workout.Type</td>
+                <td>@workout.Notes </td>
+            </tr>
+        }
+    </table>
+}
+
+
+
+@code {
+    private List<Workout> workouts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        workouts = await WorkoutService.GetWorkoutsAsync();
+    }
+}
