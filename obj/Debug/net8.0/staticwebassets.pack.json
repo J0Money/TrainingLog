@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\joach\\TræningApp\\TrainingLog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TrainingLog.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TrainingLog.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\joach\\TræningApp\\TrainingLog\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\joach\\TræningApp\\TrainingLog\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joach\\TræningApp\\TrainingLog\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joach\\TræningApp\\TrainingLog\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TrainingLog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TrainingLog.props",
+      "PackagePath": "build\\TrainingLog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TrainingLog.props",
+      "PackagePath": "buildMultiTargeting\\TrainingLog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TrainingLog.props",
+      "PackagePath": "buildTransitive\\TrainingLog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
