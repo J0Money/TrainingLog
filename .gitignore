@@ -1,0 +1,32 @@
+# Byggemapper
+bin/
+obj/
+
+# Bruger-specifikke filer
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains IDE filer
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# EF Core migrations snapshots (kan beholdes, hvis du vil dele dem)
+*.db-shm
+*.db-wal
+*.sqlite-journal
+
+# Logs
+*.log
+
+# Publish output
+publish/
+dist/
+
+# Mac / Linux systemfiler
+.DS_Store
+Thumbs.db
